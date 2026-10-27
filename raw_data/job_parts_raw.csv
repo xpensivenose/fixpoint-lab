@@ -1,0 +1,34 @@
+﻿job_id,part_id,part_name,quantity
+1004,2,Battery unit,1
+1015,7,Camera module,1
+1003,1,OLED screen,1
+1014,6,Speaker set,1
+1002,11,Touch panel,1
+1013,5,Cooling fan,1
+1001,10,Microphone module,1
+1012,4,Keyboard module,2
+1023,9,WiFi card,1
+1011,3,USB charging port,1
+1022,8,SSD 512GB,1
+1010,2,Battery unit,2
+1021,7,Camera module,1
+1009,1,OLED screen,1
+1020,6,Speaker set,1
+1008,11,Touch panel,1
+1019,,,1
+1007,10,Microphone module,1
+1018,4,Keyboard module,1
+1006,9,WiFi card,1
+1017,3,USB charging port,1
+1005,8,SSD 512GB,1
+1016,2,Battery unit,1
+1004,7,Camera module,1
+1015,1,OLED screen,1
+1003,6,Speaker set,2
+1014,11,Touch panel,
+1002,5,Cooling fan,1
+1013,10,Microphone module,1
+1001,4,Keyboard module,1
+1012,9,WiFi card,1
+1023,3,USB charging port,1
+1011,8,SSD 512GB,1

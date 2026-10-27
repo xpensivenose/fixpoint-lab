@@ -1,0 +1,26 @@
+﻿customer_id,customer_name,email,phone,city
+1,Emma Lind,emma_lind1@example.com,0703001137,Malmö
+2,Lukas Berg,lukas_berg2@example.com,0703002274,Jönköping
+3,Maja Sjöström,maja_sjostrom3@example.com,0703003411,Borås
+4,Oscar Nyström,,0703004548,Skövde
+5,Ella Holm,ella_holm5@example.com,0703005685,Uppsala
+6,Ali Haddad,ali_haddad6@example.com,0703006822,Lund
+7,Sara Lundqvist,sara_lundqvist7@example.com,,Falköping
+8,Noah Andersson,noah_andersson8@example.com,0703009096,Göteborg
+9,Leila Farah,leila_farah9@example.com,0703010233,Stockholm
+10,Felix Lindberg,felix_lindberg10@example.com,0703011370,Malmö
+11,Clara Eklund,clara_eklund11@example.com,0703012507,Jönköping
+12,Samir Osman,samir_osman12@example.com,0703013644,Borås
+13,Hanna Åström,,0703014781,Skövde
+14,Victor Nilsson,victor_nilsson14@example.com,0703015918,Uppsala
+15,Amina Saleh,amina_saleh15@example.com,0703017055,Lund
+16,Isak Dahl,isak_dahl16@example.com,0703018192,Falköping
+17,Nora Vik,nora_vik17@example.com,0703019329,Göteborg
+18,Simon Larsson,simon_larsson18@example.com,0703020466,Stockholm
+19,Lina Jansson,lina_jansson19@example.com,,Malmö
+20,David Ekström,david_ekstrom20@example.com,0703022740,Jönköping
+21,Alice Strand,alice_strand21@example.com,0703023877,Borås
+22,Omar Hussein,,0703025014,Skövde
+23,Julia Rosén,julia_rosen23@example.com,0703026151,Uppsala
+24,Erik Wall,erik_wall24@example.com,0703027288,Lund
+25,Yasmin Ali,yasmin_ali25@example.com,0703028425,

@@ -1,0 +1,26 @@
+﻿device_id,customer_id,brand,model,serial_number
+1,1,Apple,iPhone 13,FP-SN-0001
+2,2,Samsung,Galaxy S22,FP-SN-0002
+3,3,Lenovo,ThinkPad T14,FP-SN-0003
+4,4,HP,EliteBook 840,FP-SN-0004
+5,5,Apple,MacBook Air,FP-SN-0005
+6,6,Dell,Latitude 5420,FP-SN-0006
+7,7,Google,Pixel 7,FP-SN-0007
+8,8,Samsung,Galaxy A54,
+9,9,Asus,ZenBook 14,FP-SN-0009
+10,10,Acer,Swift 3,FP-SN-0010
+11,11,Apple,iPad Air,FP-SN-0011
+12,12,Motorola,Edge 40,FP-SN-0012
+13,13,Sony,Xperia 5,FP-SN-0013
+14,14,Lenovo,Yoga 7,FP-SN-0014
+15,15,HP,Pavilion 15,FP-SN-0015
+16,16,Apple,iPhone 12,FP-SN-0016
+17,17,Samsung,Galaxy S21,FP-SN-0017
+18,18,Dell,Inspiron 15,FP-SN-0018
+19,19,Huawei,MatePad 11,FP-SN-0019
+20,20,Asus,ROG Zephyrus,FP-SN-0020
+21,21,Apple,MacBook Pro,
+22,22,Nokia,G60,FP-SN-0022
+23,23,Lenovo,IdeaPad 5,FP-SN-0023
+24,,Samsung,Tab S8,FP-SN-0024
+25,25,Google,Pixel 8,FP-SN-0025
