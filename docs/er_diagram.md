@@ -1,9 +1,5 @@
 ```mermaid
----
-config:
-  er:
-    fontSize: 27
----
+
 erDiagram
     CUSTOMERS |o--o{ DEVICES : owns
     DEVICES ||--o{ REPAIR_JOBS : "brought in for"
@@ -15,7 +11,7 @@ erDiagram
         int customer_id PK
         varchar full_name
         varchar email UK
-        varchar phone UK
+        varchar phone
         varchar city
         timestamp created_at
     }
@@ -40,6 +36,7 @@ erDiagram
         varchar fault_description
         varchar status
         decimal labor_cost_sek
+        timestamp created_at
     }
     PARTS {
         int part_id PK

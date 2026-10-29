@@ -149,18 +149,18 @@ INSERT INTO job_parts (job_id, part_id, quantity) VALUES
 (1009, 1,  1),
 (1020, 6,  1),
 (1008, 11, 1),
---! (1019, NULL, 1), -- UNDANTAG: Saknar part_id i rådata. Går ej att koppla till reservdel.
+-- ! (1019, NULL, 1),    -- UNDANTAG: Saknar part_id i rådata. Går ej att koppla till reservdel.
 
 (1007, 10, 1),
 (1018, 4,  1),
 (1006, 9,  1),
--- !(1017, 3, 1),    -- UNDANTAG: Ärende 1017 finns inte (saknade device_id i repair_jobs)
+-- ! (1017, 3, 1),       -- UNDANTAG: Ärende 1017 finns inte (saknade device_id i repair_jobs)
 (1005, 8,  1),
 (1016, 2,  1),
 (1004, 7,  1),
 (1015, 1,  1),
 (1003, 6,  2),
---! (1014, 11, NULL),-- UNDANTAG: Saknar quantity i rådata. Vi gissar inte antalet
+-- ! (1014, 11, NULL),   -- UNDANTAG: Saknar quantity i rådata. Vi gissar inte antalet
 (1002, 5,  1),
 (1013, 10, 1),
 (1001, 4,  1),
