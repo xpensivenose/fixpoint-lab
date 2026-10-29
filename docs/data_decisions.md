@@ -86,3 +86,9 @@ If an ID changes, all references follow automatically.
 **Email is unique, phone is not**
 Two customers can't share the same email address. But two people in the
 same family might share a phone number, so we don't require phone to be unique.
+
+**A customer must have email or phone**
+Some customers are missing an email and some are missing a phone number,
+so neither column can be NOT NULL. But every customer has at least one of them,
+and we need a way to contact them. So we added a CHECK that requires email
+or phone or both.

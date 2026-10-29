@@ -69,4 +69,8 @@ CREATE TABLE job_parts (
 ALTER TABLE repair_jobs
 ADD COLUMN created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP;
 
+ALTER TABLE customers
+ADD CONSTRAINT chk_customers_contact
+CHECK (email IS NOT NULL OR phone IS NOT NULL);
+
 SELECT COUNT(*) AS total_customers FROM customers;
