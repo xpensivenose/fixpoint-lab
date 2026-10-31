@@ -97,3 +97,32 @@ SELECT * FROM parts;
 -- to the same job once. It doesn't matter that the quantity is different (2
 -- instead of 1). If more parts are used, we should update the quantity on the
 -- row that's already there, not add a new one.
+
+
+
+-- Report C: This shows which spare parts are used on each repair job, 
+-- and how many of each part are used.
+-- INNER JOIN is used to connect the junction table (job_parts) with the parts 
+-- table to get the readable part names, and repair_jobs to ensure it belongs to a valid job.
+-- We do this because the database is normalized, meaning part names are only stored once in the parts table.
+
+SELECT r.job_id, p.part_name AS spare_part, jp.quantity
+FROM job_parts AS jp
+    JOIN repair_jobs AS r ON jp.job_id = r.job_id
+    JOIN parts AS p ON jp.part_id = p.part_id
+ORDER BY r.job_id ASC, p.part_name ASC;
+
+
+-- Report D: This counts the number of repair jobs for each status.
+-- GROUP BY is used to group the rows by status, and COUNT calculates the number of jobs.
+-- HAVING is used instead of WHERE, because we want to filter the result 
+-- of an aggregate function (COUNT). We only show statuses that have at least two jobs.
+-- We use WHERE status IS NOT NULL to filter out jobs that are missing a status, 
+-- so they don't show up as an empty group.
+
+SELECT status, COUNT(job_id) AS job_count
+FROM repair_jobs
+WHERE status IS NOT NULL
+GROUP BY status
+HAVING COUNT(job_id) >= 2
+ORDER BY job_count DESC;
