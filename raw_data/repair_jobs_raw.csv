@@ -1,0 +1,36 @@
+﻿job_id,device_id,technician_id,customer_name,device_brand,fault_description,status,labor_cost_sek
+1001,4,2,Oscar Nyström,HP,Screen cracked,Received,350
+1002,11,5,Clara Eklund,Apple,Battery drains quickly,Diagnosing,423
+1003,18,8,Simon Larsson,Dell,Keyboard keys not working,Waiting for parts,496
+1004,25,2,Yasmin Ali,Google,Does not start,In repair,569
+1005,7,5,Sara Lundqvist,Google,Charging port damaged,Ready,642
+1006,14,,Victor Nilsson,Lenovo,Speaker distorted,Collected,715
+1007,21,2,Alice Strand,Apple,Overheating,Received,788
+1008,3,5,Maja Sjöström,Lenovo,,Diagnosing,861
+1009,10,8,Felix Lindberg,Acer,Camera not focusing,Waiting for parts,934
+1010,17,2,Nora Vik,Samsung,Blue screen on startup,In repair,1007
+1011,24,5,,Samsung,Touch screen unresponsive,Ready,1080
+1012,6,8,Maja S,Dell,Strange fan noise,Collected,1153
+1013,13,2,Hanna Åström,Sony,Charging slowly,,1226
+1014,20,5,David Ekström,Asus,USB port not working,Diagnosing,1299
+1015,2,8,Lukas Berg,Samsung,Microphone not working,Waiting for parts,1372
+1016,9,2,Leila Farah,Asus,Screen cracked,In repair,1445
+1017,,5,,,Battery drains quickly,Ready,368
+1018,23,8,Julia Rosén,Lenovo,Keyboard keys not working,Collected,441
+1019,5,2,Ella Holm,Apple,Does not start,Received,514
+1020,12,5,Samir Osman,Motorola,Charging port damaged,Diagnosing,587
+1021,19,8,Lina Jansson,Huawei,Speaker distorted,Waiting for parts,660
+1022,1,2,Emma Lind,Apple,Overheating,In repair,
+1023,8,5,Noah Andersson,Samsung,WiFi not connecting,Ready,806
+1024,15,8,Amina Saleh,HP,Camera not focusing,Collected,879
+1025,22,2,Omar Hussein,Nokia,Blue screen on startup,Received,952
+1026,4,5,Oscar Nyström,HP,Touch screen unresponsive,,1025
+1027,11,8,Clara Eklund,Apple,Strange fan noise,Waiting for parts,1098
+1028,18,2,Simon Larsson,Dell,Charging slowly,In repair,1171
+1029,25,,Yasmin Ali,Google,USB port not working,Ready,1244
+1030,7,8,Sara Lundqvist,Google,Microphone not working,Collected,1317
+1031,14,2,Victor Nilsson,Lenovo,,Received,1390
+1032,21,5,Alice Strand,Apple,Battery drains quickly,Diagnosing,1463
+1033,3,8,Maja Sjöström,Lenovo,Keyboard keys not working,Waiting for parts,386
+1034,10,2,Felix Lindberg,Acer,Does not start,In repair,459
+1035,17,5,Nora Vik,Samsung,Charging port damaged,Ready,532
